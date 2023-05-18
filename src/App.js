@@ -38,8 +38,8 @@ function App() {
 
   return (
     <div className="App">
-      <header>
-        <h1>Movies App</h1>
+      <header className="dark-mode">
+        <h1 className="dark-mode">Movies App</h1>
         <input  type="text"
           placeholder="Search movies..."
           value={searchTerm}
